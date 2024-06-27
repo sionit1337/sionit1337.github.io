@@ -22,3 +22,8 @@ html {
     font-size: x-large;
     padding: 32px;
 }
+
+.avatar {
+    height: 100px;
+    padding: 8px;
+}
