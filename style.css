@@ -6,11 +6,6 @@ html {
     background: #0f111a;
 }
 
-p {
-    text-align: center;
-    font-size: x-large;
-}
-
 .header {
     background: #090b10;
     padding: 24px;
@@ -20,4 +15,10 @@ p {
 .nav_btn {
     padding: 8px;
     border: .5px solid #1e212d;
+}
+
+.content {
+    text-align: center;
+    font-size: x-large;
+    padding: 32px;
 }
