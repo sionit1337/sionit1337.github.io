@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
+:root {
+    --bloom-intensity: 8px;
+}
+
 html {
     font-family: Ubuntu;
     color: #babed8;
@@ -9,21 +13,27 @@ html {
 .header {
     background: #090b10;
     padding: 24px;
-    border: .5px solid #babed8;
+    border: .5px solid #1e212d;
+    text-shadow: 0px 0px var(--bloom-intensity);
+    box-shadow: 0px 0px var(--bloom-intensity) #1e212d;
 }
 
 .nav_btn {
     padding: 8px;
     border: .5px solid #1e212d;
+    text-shadow: 0px 0px var(--bloom-intensity);
+    box-shadow: 0px 0px var(--bloom-intensity) #1e212d;
 }
 
 .content {
     text-align: center;
     font-size: x-large;
     padding: 32px;
+    text-shadow: 0px 0px var(--bloom-intensity);
 }
 
 .avatar {
-    height: 100px;
-    padding: 8px;
+    height: 175px;
+    border: .5px solid #babed8;
+    box-shadow: 0px 0px var(--bloom-intensity) #babed8;
 }
