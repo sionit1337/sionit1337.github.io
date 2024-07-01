@@ -16,7 +16,7 @@ html {
     background: var(--bg-default);
 }
 
-.header {
+.block {
     background: var(--bg-box);
     padding: 24px;
     border: var(--border-thickness) solid var(--dark-color);
@@ -31,14 +31,14 @@ html {
     box-shadow: 0 0 var(--bloom-intensity) var(--dark-color);
 }
 
-.content {
+#content {
     text-align: center;
     font-size: x-large;
     padding: 32px;
     text-shadow: 0 0 var(--bloom-intensity);
 }
 
-.avatar {
+#avatar {
     height: 175px;
     border: var(--border-thickness) solid var(--light-color);
     box-shadow: 0 0 var(--bloom-intensity) var(--light-color);
