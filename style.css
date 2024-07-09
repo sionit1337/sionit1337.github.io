@@ -47,3 +47,7 @@ html {
 a {
     color: var(--link-color);
 }
+
+label {
+    font-size:x-small;
+}
